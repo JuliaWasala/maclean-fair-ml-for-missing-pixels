@@ -1,6 +1,6 @@
-# maclean-fair-ml-for-missing-pixels
+# Improving methane plume detections in images with missing pixels using Fair ML
 
-This repository contains the code and supplementary material for the paper "Improving methane plume detections in images with missing pixels using Fair ML" by Julia Wąsala, Bram Maasakkers, Ilse Aben, Rochelle Schneider, Holger Hoos, and Mitra Baratchi. The paper proposes two approaches to deal with missing not at random pixels in satellite data: an imputation approach, and a resampling scheme that resamples the training data at training time to remove the association between the number of missing pixels in an image and the label (see paper for more details). 
+This repository contains the code and supplementary material [coming soon] for the paper "Improving methane plume detections in images with missing pixels using Fair ML" by Julia Wąsala, Bram Maasakkers, Ilse Aben, Rochelle Schneider, Holger Hoos, and Mitra Baratchi. The paper proposes two approaches to deal with missing not at random pixels in satellite data: an imputation approach, and a resampling scheme that resamples the training data at training time to remove the association between the number of missing pixels in an image and the label (see paper for more details). 
 
 # How to use the code
 We provide our imputation and resampling strategies as plug-in modules, and removed most code specific to the task presented in the paper (multimodal methane plume classification). 
