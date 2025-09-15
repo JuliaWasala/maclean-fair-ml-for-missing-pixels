@@ -54,4 +54,4 @@ loader=DataLoader(dataset,batch_size=64,sampler=sampler, shuffle=False)
 ```
 
 # Supplementary material
-We provide additional details on the composition and processing of our dataset in the `supplementary` folder. More supplementary information may be added later. 
+We provide additional details on the composition and processing of our dataset in the `supplementary` folder.
