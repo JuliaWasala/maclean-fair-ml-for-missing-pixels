@@ -58,13 +58,13 @@ As mentioned in the paper, we use a spatial blocking scheme to partition the dat
 
 Since some regions almost exclusively have scenes with ‘plume’ labels, while some have none at all, we chose to partition the data into smaller cells, as creating bigger blocks would make it more challenging to achieve class balance.  
 
-![Label distribution](https://github.com/JuliaWasala/maclean-fair-ml-for-missing-pixels/supplementary/imgs/img0.png)
+![Label distribution](https://github.com/JuliaWasala/maclean-fair-ml-for-missing-pixels/blob/main/img0.png?raw=true)
 
 We create a 3x3 degree grid over the map, assigning images to grid cells. Then, we randomly assign each grid cell to a partition. Before training any models, we have fine-tuned the random seeds for this random assignment only to achieve approximate class balance, without having access to any model performance to avoid data leakage.  
 
 The resulting splits look like this: 
 
-![Data partitioning scheme](https://github.com/JuliaWasala/maclean-fair-ml-for-missing-pixels/supplementary/imgs/img1.png)
+![Data partitioning scheme](https://github.com/JuliaWasala/maclean-fair-ml-for-missing-pixels/blob/main/img0.png?raw=true)
 
 ## Normalisation 
 
